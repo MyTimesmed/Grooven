@@ -534,6 +534,7 @@ h6 {
   justify-content: center;
   align-items: center;
   height: 100%;
+  text-align: center;
 }
 .content h2, .content p {
   color: #000 !important;
