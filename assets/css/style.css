@@ -520,7 +520,19 @@ h6 {
   border: 2px solid #5c9f24;
   background: #5c9f24;
 }
-
+.banner-inner{
+  background-image: url(../img/banner.png);
+  height: 500px;
+  background-size: cover;
+}
+#header {
+  position: relative;
+}
+.content {
+  text-align: center;
+}.content h2, .content p {
+  color: #000 !important;
+}
 #hero .btn-get-started:hover {
   background: #6ab82a;
   border-color: #6ab82a;
