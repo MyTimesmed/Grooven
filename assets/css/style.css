@@ -775,6 +775,10 @@ section {
   line-height: 24px;
   font-size: 14px;
 }
+.icon img {
+  width: 80px;
+  height: 80px;
+}
 
 /*--------------------------------------------------------------
 # Why Us
@@ -880,6 +884,8 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
+  width: 356px;
+  height: 267px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1082,7 +1088,10 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
-
+.team .member img.img-fluid {
+  width: 261px;
+  height: 261px;
+}
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
