@@ -1055,8 +1055,9 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: #fff;
   position: relative;
+  border-radius: 5px;
 }
 
 .team .member .member-info {
@@ -1081,6 +1082,7 @@ section {
   background: rgba(0, 0, 0, 0.7);
   opacity: 1;
   transition: 0.4s;
+  border-radius: 5px;
 }
 
 .team .member:hover .member-info-content {
@@ -1119,9 +1121,14 @@ section {
   font-size: 18px;
   margin: 0 2px;
 }
-.team .member img.img-fluid {
+/* .team .member img.img-fluid {
   width: 261px;
   height: 261px;
+} */
+.team .member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 @keyframes gradient{
 0% {
