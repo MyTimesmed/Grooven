@@ -1076,6 +1076,7 @@ h4.title a {
   position: relative;
   border-radius: 5px;
   padding: 10px;
+  box-shadow: 1px 3px 7px 2px #524d4d;
 }
 .out_latest_inner {
   padding: 20px 0 0;
