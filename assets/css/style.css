@@ -837,7 +837,7 @@ section {
 }
 
 .why-us .box p {
-  color: #aaaaaa;
+  color: #000;
   font-size: 15px;
   margin: 0;
   padding: 0;
@@ -1379,7 +1379,7 @@ font-weight: bold;
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #526567;
 }
 
 .contact .contact-info a {
@@ -1636,7 +1636,7 @@ font-weight: bold;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #81d33d;
+  color: #187bd2;
 }
 
 #footer .footer-top .footer-newsletter form {
