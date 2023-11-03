@@ -825,7 +825,7 @@ section {
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #8ed851;
+  color: #187bd2;
 }
 
 .why-us .box h4 {
@@ -966,7 +966,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #8ed851;
+  color: #187bd2;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -1311,7 +1311,7 @@ font-weight: bold;
   position: absolute;
   right: 0;
   left: 20px;
-  color: #9cdc66;
+  color: #187bd2;
 }
 
 .faq .faq-list .icon-show,
@@ -1613,7 +1613,7 @@ font-weight: bold;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #8ed851;
+  color: #187bd2;
   font-size: 18px;
   line-height: 1;
 }
