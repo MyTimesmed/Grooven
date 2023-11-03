@@ -40,11 +40,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#about">வலைதளம்</a></li>
+          <li><a class="nav-link scrollto" href="#services">திட்டங்கள்</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">பிற துறைகள்</a></li>
+          <li><a class="nav-link scrollto" href="#team">மக்கள் கருத்து</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -52,18 +51,47 @@
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
               </li>
               <li><a href="#">Drop Down 2</a></li>
               <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="#about">
+            <div class="custom-select" style="width:175px;">
+              <select id="other_schemes_drop">
+              <option value="0">மற்ற நல திட்டங்கள்</option>
+              <option value="1">ஆதிதிராவிடர் (ம) பழங்குடியினர் நலத்துறை</option>
+              <option value="2">வேளாண்மை மற்றும் உழவர் நலத் துறை</option>
+              <option value="3">கால்நடை பராமரிப்பு,பால்வளம்,மீன்வளம் மற்றும் மீனவர் நலத்துறை</option>
+              <option value="4">பிற்படுத்தப்பட்டோர், மிகப்பிற்படுத்தப்பட்டோர் மற்றும் சிறுபான்மையினர் நலத்துறை</option>
+              <option value="5">வணிகவரி மற்றும் பதிவுத்துறை</option>
+              <option value="6">கூட்டுறவு, உணவு மற்றும் நுகர்வோர் பாதுகாப்பு துறை</option>
+              <option value="7">எரிசக்தித்துறை</option>
+              <option value="8">சுற்றுசூழல், காலநிலை மாற்றம் மற்றும் வனத்துறை</option>
+              <option value="9">நிதித் துறை</option>
+              <option value="10">கைத்தறி, கைத்திறன்,துணிநூல் மற்றும் கதர்த்துறை</option>
+              <option value="11">மருத்துவம் மற்றும் மக்கள் நல்வாழ்வுத்துறை</option>
+              <option value="12">உயர்கல்வி துறை</option>
+              <option value="13">உள், மதுவிலக்கு மற்றும்ஆயத்தீர்வை துறை</option>
+              <option value="14">வீட்டு வசதி மற்றும் நகர்ப்புறவளர்ச்சித் துறை</option>
+              <option value="15">தொழிலாளர் நலன் மற்றும் திறன் மேம்பாட்டுத் துறை</option>
+              <option value="16">குறு, சிறு மற்றும் நடுத்தரத் தொழில் நிறுவனங்கள் துறை</option>
+              <option value="17">நகராட்சி நிர்வாகம் மற்றும் குடிநீர் வழங்கல் துறை</option>
+              <option value="18">பொதுத்துறை</option>
+              <option value="19">வருவாய் மற்றும் பேரிடர் மேலாண்மைத் துறை</option>
+              <option value="20">ஊரக வளர்ச்சி மற்றும் ஊராட்சி துறை</option>
+              <option value="21">பள்ளிக் கல்வித் துறை</option>
+              <option value="22">சமூக நலன் மற்றும் மகளிர் உரிமைத் துறை</option>
+              <option value="23">தமிழ் வளர்ச்சி மற்றும் செய்தித்துறை</option>
+              <option value="24">சுற்றுலா, பண்பாடு மற்றும் சமய அறநிலையத் துறை</option>
+              <option value="25">போக்குவரத்து துறை</option>
+              <option value="26">மாற்றுத்திறனாளிகள் நலத்துறை</option>
+              <option value="27">இளைஞர் நலன் மற்றும் விளையாட்டு மேம்பாட்டுத் துறை</option>
+              </select>
+              </div>
+          </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -81,7 +109,7 @@
         <div class="carousel-inner" role="listbox">
 
   
-          <div class="carousel-item active" style="background-image: url(./assets/img/neengal-logo.jpg);">
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2 class="animate__animated animate__fadeInDown">நீங்கள் நலமா</h2>
@@ -982,21 +1010,21 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">வலைதளம்</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">திட்டங்கள்</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">பிற துறைகள்</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">மக்கள் கருத்து</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact Us</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
             </ul>
           </div>
 
@@ -1016,9 +1044,6 @@
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong><span>Neengal Nalama</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">Neengal Nalama</a>
       </div>
     </div>
   </footer><!-- End Footer -->
