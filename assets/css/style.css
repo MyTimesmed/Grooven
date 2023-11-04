@@ -539,7 +539,7 @@ h6 {
   text-align: center;
 }
 .content h2, .content p {
-  color: #000 !important;
+  color: #fff !important;
 }
 #hero .btn-get-started:hover {
   background: #6ab82a;
