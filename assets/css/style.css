@@ -60,7 +60,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(0, 0, 0, 0.75);
+  background: #0eb5f0;
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
@@ -120,7 +120,8 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255);
+  font-weight: bold;
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -553,10 +554,10 @@ h6 {
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   #hero p {
     width: 60%;
-  }
+  } */
 
   #hero .carousel-control-prev,
   #hero .carousel-control-next {
@@ -639,7 +640,7 @@ h4.title a {
 
 .about .content .icon-box p {
   font-size: 14px;
-  color: #848484;
+  color: #000 !important;
   margin-left: 60px;
 }
 
@@ -793,7 +794,7 @@ h4.title a {
 }
 
 .services .title a {
-  color: #444444;
+  color: #187bd2;
   transition: 0.3s;
 }
 
@@ -807,7 +808,7 @@ h4.title a {
   display: block;
   width: 50px;
   height: 2px;
-  background: #187bd2;
+  background: #4444;
   bottom: 0;
   left: calc(50% - 25px);
 }
