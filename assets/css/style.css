@@ -1077,7 +1077,7 @@ section {
 .team {
   padding: 60px 0;
   overflow: auto;
-  background: linear-gradient(315deg,rgb(231 195 27 / 82%) 48%,rgb(63 229 242)98%);
+  background: linear-gradient(315deg,rgba(27, 231, 112, 0.82) 48%,rgb(63 229 242)98%);
   animation: gradient 15s ease infinite;
   background-size: 400% 400%;
   background-attachment: fixed;
@@ -1091,11 +1091,11 @@ section {
   background: #fff;
   position: relative;
   border-radius: 5px;
-  padding: 30px;
+  padding: 2.5rem 3rem;
   box-shadow: 1px 3px 7px 2px #524d4d;
 }
 .out_latest_inner {
-  padding: 20px 0 0;
+  padding: 30px 0 0;
 }
 .out_latest_inner h6 {
 font-size: 26px;
@@ -1170,25 +1170,19 @@ font-weight: bold;
   height: 261px;
 } */
 .team .member img {
-  width: 130px;
-  height: 140px;
+  width: 155px;
+  height: 155px;
   border-radius: 50%;
 }
 @keyframes gradient{
 0% {
-  background-position: 0% 0%;
-}
-25% {
-  background-position: 20% 40%;
+  background-position: 0% 40%;
 }
 50% {
   background-position: 40% 60%;
 }
-75% {
-  background-position: 60% 80%;
-}
 100% {
-  background-position: 80% 100%;
+  background-position: 60% 100%;
 }
 }
 /*--------------------------------------------------------------
