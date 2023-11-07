@@ -755,7 +755,7 @@ h4.title a {
   align-items: center;
 }
 .icon-box:hover .icon {
-  background: #fabd2f;
+  /* background: #fabd2f; */
   transform: rotateY(360deg);
   -webkit-transform: rotateY(360deg);
   -webkit-transition: all 1.3s;
@@ -764,14 +764,15 @@ h4.title a {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 160px;
+  height: 160px;
   margin-bottom: 20px;
   background: #fff;
   border-radius: 50%;
   transition: 0.5s;
   color: #187bd2;
   overflow: hidden;
+  border: 5px solid #187bd2;
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -817,7 +818,7 @@ h4.title a {
   font-size: 14px;
 }
 .icon img {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 section {
@@ -928,7 +929,7 @@ section {
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
-  width: 356px;
+  width: 100%;
   height: 267px;
 }
 
