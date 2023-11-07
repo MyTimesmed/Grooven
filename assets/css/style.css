@@ -109,6 +109,7 @@ h6 {
 .navbar>ul>li {
   white-space: nowrap;
   padding: 10px 0 10px 22px;
+  cursor: pointer;
 }
 
 .navbar a,
@@ -134,7 +135,9 @@ h6 {
   line-height: 0;
   margin-left: 5px;
 }
-
+.custom-select:focus-visible {
+  outline: none;
+}
 .navbar>ul>li>a:before {
   content: "";
   position: absolute;
@@ -142,7 +145,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #187bd2;
+  background-color: #9a5405;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -239,7 +242,16 @@ h6 {
   left: 100%;
   visibility: visible;
 }
-
+.custom-select select {
+  width: 100%;
+  height: 35px;
+  border: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+select#other_schemes_drop option:nth-child(2n+1) {
+  background-color: rgba(15, 207, 139, 0.41);
+}
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
@@ -1078,7 +1090,7 @@ section {
   background: #fff;
   position: relative;
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: 1px 3px 7px 2px #524d4d;
 }
 .out_latest_inner {
@@ -1157,8 +1169,8 @@ font-weight: bold;
   height: 261px;
 } */
 .team .member img {
-  width: 130px;
-  height: 125px;
+  width: 140px;
+  height: 150px;
   border-radius: 50%;
 }
 @keyframes gradient{
@@ -1699,15 +1711,4 @@ font-weight: bold;
   text-align: center;
   font-size: 13px;
   color: #fff;
-}
-
-
-.custom-select select {
-  width: 100%;
-  height: 35px;
-  border: unset;
-  border-radius: 5px;
-}
-select#other_schemes_drop option:nth-child(2n+1) {
-  background-color: rgba(15, 207, 139, 0.41);
 }
