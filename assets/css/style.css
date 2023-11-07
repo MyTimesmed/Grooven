@@ -1385,14 +1385,16 @@ font-weight: bold;
 .contact .contact-info p {
   margin-bottom: 0;
   color: #000;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .contact .contact-info h3 {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #526567;
+  color: #465355;
 }
 
 .contact .contact-info a {
