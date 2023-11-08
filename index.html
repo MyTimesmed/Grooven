@@ -493,6 +493,19 @@
       </div>
     </section><!-- End Team Section -->
 
+    <div class="fade-carousel">
+      <div class="fade-item">
+        <div class="item-inner">Item 1</div>
+      </div>
+      <div class="fade-item">
+        <div class="item-inner">Item 2</div>
+      </div>
+      <div class="fade-item">
+        <div class="item-inner">Item 3</div>
+      </div>
+      ...
+    </div>
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -1007,6 +1020,33 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+        integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" 
+        crossorigin="anonymous">
+</script>
+<script src="jquery.fadeCarousel.js"></script>
+
+
+
+<script>
+  $('.fade-carousel').fadeCarousel({
+    itemSelector:'.fade-item',
+    delay: 4000,
+  fadeDuration: 2000,
+
+  items: 3,
+  responsive: {
+    768: {
+      items: 1
+    },
+    992: {
+      items: 2
+    }
+  }
+});
+</script>
 
 </body>
 
