@@ -1090,7 +1090,7 @@ section {
   margin-bottom: 20px;
   background: #fff;
   position: relative;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   padding: 50px;
   box-shadow: 1px 3px 7px 2px #524d4d;
 }
@@ -1104,6 +1104,7 @@ color: #000c;
 }
 .out_latest_inner p {
   font-size: 15px;
+  color: #000000ab;
 }
 .team .member .member-info {
   opacity: 0;
