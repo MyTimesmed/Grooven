@@ -1332,6 +1332,7 @@ color: #000c;
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  color: #187bd2 !important;
 }
 
 .faq .faq-list .icon-help {
@@ -1717,4 +1718,10 @@ color: #000c;
 }
 .container{
   max-width: 1250px !important;
+}
+section{
+  background-color: #fff;
+}
+p {
+  color: #000000d1;
 }
