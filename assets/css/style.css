@@ -1718,3 +1718,24 @@ color: #000c;
 .container{
   max-width: 1250px !important;
 }
+
+
+
+
+
+img {
+  max-width: 100%;
+}
+
+.slick-slide {
+   opacity: .3;
+   transition: opacity .5s ease-in-out;
+}
+.slick-current {
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+}
+.slick-active{
+   opacity: 1;
+   transition: opacity .5s ease-in-out;
+}
