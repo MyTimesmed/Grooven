@@ -1730,6 +1730,7 @@ p {
 }
 .custom-select {
   background: unset !important;
+  border: unset;
 }
 a:hover {
   text-decoration: none;
