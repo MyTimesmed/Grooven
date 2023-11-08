@@ -198,6 +198,18 @@
     }
   });
 
+
+
+  $('.fade').slick({
+    autoplay: true,
+    arrows: false,
+    speed: 0,
+    dots: false,
+    infinite: true,
+    slidesToShow: 4, 
+    slidesToScroll: 4,
+    cssEase: 'linear'
+  });
   /**
    * Initiate Pure Counter 
    */
