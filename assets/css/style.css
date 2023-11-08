@@ -1094,7 +1094,7 @@ section {
   background: #fff;
   position: relative;
   padding: 2.5rem;
-  box-shadow: 4px 1px 20px 5px #544;
+  box-shadow: 4px 1px 20px 5px #554444e6;
 }
 .out_latest_inner {
   padding: 30px 0 0;
@@ -1177,6 +1177,7 @@ color: #000c;
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  object-fit: cover;
 }
 @keyframes gradient{
 0% {
