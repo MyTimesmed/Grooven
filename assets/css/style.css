@@ -1090,8 +1090,8 @@ section {
   margin-bottom: 20px;
   background: #fff;
   position: relative;
-  /* border-radius: 5px; */
   padding: 50px;
+  border-radius: 5px;
   box-shadow: 1px 3px 7px 2px #524d4d;
 }
 .out_latest_inner {
