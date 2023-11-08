@@ -1094,7 +1094,7 @@ section {
   background: #fff;
   position: relative;
   padding: 2.5rem;
-  box-shadow: 1px 2px 16px 3px #524d4
+  box-shadow: 4px 1px 20px 5px #544;
 }
 .out_latest_inner {
   padding: 30px 0 0;
@@ -1174,7 +1174,7 @@ color: #000c;
   height: 261px;
 } */
 .team .member img {
-  width: 210px;
+  width: 200px;
   height: 200px;
   border-radius: 50%;
 }
@@ -1736,7 +1736,7 @@ a:hover {
 .te-m {
   background: #fff;
   border-radius: 50%;
-  width: 210px;
+  /* width: 210px;
   height: 200px;
-  box-shadow: -1px 0px 3px 5px #ccc;
+  box-shadow: -1px 0px 3px 5px #ccc; */
 }
