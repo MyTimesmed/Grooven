@@ -1049,9 +1049,10 @@
   <script src="assets/js/main.js"></script>
 
   <script>
-    $("#other_schemes_drop").change(function () {
-            location.href = "/feedback/scheme_gov?dep_id=" + $("#other_schemes_drop").val();
-        });
+   $("#other_schemes_drop").change(function () {
+    var url = "https://www.neengalnalamaa.com/feedback/scheme_gov?dep_id=" + $("#other_schemes_drop").val();
+    window.open(url, '_blank');
+});
   </script>
 
 </body>
