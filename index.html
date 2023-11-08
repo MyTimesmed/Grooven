@@ -1048,6 +1048,12 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    $("#other_schemes_drop").change(function () {
+            location.href = "/feedback/scheme_gov?dep_id=" + $("#other_schemes_drop").val();
+        });
+  </script>
+
 </body>
 
 </html>
