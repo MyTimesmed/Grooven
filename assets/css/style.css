@@ -1728,5 +1728,15 @@ p {
   color: #000000d1;
 }
 .custom-select {
-  background: unset;
+  background: unset !important;
+}
+a:hover {
+  text-decoration: none;
+}
+.te-m {
+  background: #fff;
+  border-radius: 50%;
+  width: 210px;
+  height: 200px;
+  box-shadow: -1px 0px 3px 5px #ccc;
 }
