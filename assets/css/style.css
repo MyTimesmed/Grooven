@@ -249,6 +249,8 @@ h6 {
   border-radius: 5px;
   cursor: pointer;
   font-size: 14px;
+  max-width: 200px;
+  min-width: 175px;
 }
 select#other_schemes_drop option:nth-child(2n+1) {
   background-color: rgba(15, 207, 139, 0.41);
@@ -1724,4 +1726,7 @@ section{
 }
 p {
   color: #000000d1;
+}
+.custom-select {
+  background: unset;
 }
