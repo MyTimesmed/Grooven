@@ -1184,7 +1184,7 @@ color: #000c;
   display: none;
 }
 @media only screen and (max-width:767px){
-.mobile-t{
+.team.mobile-t{
   display: block !important;
 }
 .team{
