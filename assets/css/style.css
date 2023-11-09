@@ -292,7 +292,7 @@ select#other_schemes_drop option:nth-child(2n+1) {
 }
 
 .navbar-mobile {
-  position: fixed;
+  position: fixed !important;
   overflow: hidden;
   top: 0;
   right: 0;
