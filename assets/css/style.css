@@ -253,7 +253,7 @@ h6 {
   min-width: 175px;
 }
 select#other_schemes_drop option:nth-child(2n+1) {
-  background-color: rgba(15, 207, 139, 0.41);
+  background-color: #197a9d;
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -1183,9 +1183,15 @@ color: #000c;
 .mobile-t{
   display: none;
 }
+h1.logo.l-h {
+  display: none;
+}
 @media only screen and (max-width:767px){
 .mobile-t{
   display: block !important;
+}
+h1.logo.l-h {
+  display: block;
 }
 .team{
   display: none;;
