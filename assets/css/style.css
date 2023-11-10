@@ -1760,3 +1760,69 @@ a:hover {
   height: 200px;
   box-shadow: -1px 0px 3px 5px #ccc; */
 }
+
+
+
+.select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 0 !important;
+  background: #fff;
+  background-image: none;
+  flex: 1;
+  padding: 0 .5em;
+  color: #000;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+select#format option:nth-child(odd) {
+  background-color: #0fcf8b69;
+}
+  select::-ms-expand {
+      display: none;
+  }
+.select-drop-parent {
+  padding: 3rem 0;
+  background: linear-gradient(45deg, #d0bf11, #31c1db);
+}
+.select {
+  position: relative;
+  display: flex;
+  width: 25em;
+  height: 3em;
+  line-height: 3;
+  background: #5c6664;
+  overflow: hidden;
+  border-radius: .25em;
+}
+
+  .select::after {
+      content: '\25BC';
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 0 1em;
+      background: #2b2e2e;
+      cursor: pointer;
+      pointer-events: none;
+      transition: .25s all ease;
+      color: #23b499;
+  }
+
+  .select:hover::after {
+      color: #23b499;
+  }
+.s-drop {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.select-drop-parent {
+  padding: 3rem 0;
+}
