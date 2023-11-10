@@ -1782,7 +1782,7 @@ a:hover {
 }
 
 select#format option:nth-child(odd) {
-  background-color: #0fcf8b69;
+  background-color: #1c5daede;
 }
   select::-ms-expand {
       display: none;
@@ -1800,6 +1800,8 @@ select#format option:nth-child(odd) {
   background: #5c6664;
   overflow: hidden;
   border-radius: .25em;
+  border: 1px solid #000;
+  box-shadow: -1px 2px 2px 0px #3a3535b5;
 }
 
   .select::after {
@@ -1812,7 +1814,7 @@ select#format option:nth-child(odd) {
       cursor: pointer;
       pointer-events: none;
       transition: .25s all ease;
-      color: #23b499;
+      color: #383ac4;
   }
 
   .select:hover::after {
@@ -1821,7 +1823,7 @@ select#format option:nth-child(odd) {
 .s-drop {
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin: 0 0 2rem 0;
 }
 .select-drop-parent {
   padding: 3rem 0;
