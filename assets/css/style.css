@@ -429,7 +429,9 @@ select#other_schemes_drop option:nth-child(2n+1) {
   background-color: #0000008f;
 
 }
-
+.portfolio .portfolio-wrap a {
+  width: 100%;
+}
 #hero .carousel-content {
   text-align: center;
 }
