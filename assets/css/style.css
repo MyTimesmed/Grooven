@@ -436,7 +436,11 @@ select#other_schemes_drop option:nth-child(2n+1) {
 #hero .carousel-content {
   text-align: center;
 }
-
+.carousel-content {
+  background: #197a9dcc;
+  width: 80%;
+  padding: 10px 0;
+}
 #hero h2 {
   color: #fff !important;
   margin-bottom: 30px;
