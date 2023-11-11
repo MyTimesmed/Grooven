@@ -1749,6 +1749,7 @@ p {
 .custom-select {
   background: unset !important;
   border: unset !important;
+  padding: 0;
 }
 a:hover {
   text-decoration: none !important;
