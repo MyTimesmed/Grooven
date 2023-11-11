@@ -1749,7 +1749,7 @@ p {
 .custom-select {
   background: unset !important;
   border: unset !important;
-  padding: 0;
+  padding: 0 !important;
 }
 a:hover {
   text-decoration: none !important;
@@ -1760,6 +1760,11 @@ a:hover {
   /* width: 210px;
   height: 200px;
   box-shadow: -1px 0px 3px 5px #ccc; */
+}
+.login{
+  border: 1px solid;
+    padding: 7px 10px;
+    border-radius: 4px;
 }
 
 
