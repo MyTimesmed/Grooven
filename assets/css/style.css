@@ -1766,7 +1766,9 @@ a:hover {
     padding: 7px 10px !important;
     border-radius: 4px;
 }
-
+li.login-li:hover a:before {
+  content: unset;
+}
 
 
 .select select {
