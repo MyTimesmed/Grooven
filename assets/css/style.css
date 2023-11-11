@@ -426,6 +426,8 @@ select#other_schemes_drop option:nth-child(2n+1) {
   top: 0;
   left: 0;
   right: 0;
+  background-color: #0000008f;
+
 }
 
 #hero .carousel-content {
