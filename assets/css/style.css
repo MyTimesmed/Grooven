@@ -441,11 +441,11 @@ select#other_schemes_drop option:nth-child(2n+1) {
   width: 65%;
   padding: 10px 0;
   position: absolute;
-  bottom: 50px;
+  bottom: 45px;
 }
 #hero h2 {
   color: #fff !important;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 36px;
   font-weight: 700;
 }
@@ -457,7 +457,7 @@ select#other_schemes_drop option:nth-child(2n+1) {
 #hero p {
   width: 80%;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 10px auto;
   color: #fff;
   font-size: 15px;
   font-weight: 600;
