@@ -464,9 +464,12 @@ select#other_schemes_drop option:nth-child(2n+1) {
 #hero .carousel-inner .carousel-item {
   transition-property: opacity;
   background-position: center top;
-  background-size: 115% 100%;
 }
-
+@media only screen and (max-width:767px){
+  #hero .carousel-inner .carousel-item {
+    background-size: 115% 100%;
+  }
+}
 #hero .carousel-inner .carousel-item,
 #hero .carousel-inner .active.carousel-item-start,
 #hero .carousel-inner .active.carousel-item-end {
@@ -493,8 +496,7 @@ select#other_schemes_drop option:nth-child(2n+1) {
   background: none;
   font-size: 30px;
   line-height: 0;
-  width: auto;
-  height: auto;
+  width: auto;  height: auto;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   transition: 0.3s;
