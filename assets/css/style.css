@@ -644,7 +644,7 @@ section {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  color: #000;
+  color: #000 !important;
 }
 
 .about .content .icon-box {
