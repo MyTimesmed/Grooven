@@ -253,7 +253,7 @@ h6 {
   min-width: 175px;
 }
 select#other_schemes_drop option:nth-child(2n+1) {
-  background-color: #197a9d;
+  background-color: #3ac0f0ad;
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
@@ -1794,7 +1794,7 @@ li.login-li:hover a:before {
 }
 
 select#format option:nth-child(odd) {
-  background-color: #1c5daede;
+  background-color: #3ac0f0ad;
 }
   select::-ms-expand {
       display: none;
@@ -1822,11 +1822,11 @@ select#format option:nth-child(odd) {
       top: 0;
       right: 0;
       padding: 0 1em;
-      background: #2b2e2e;
+      background: #312ca2e6;
       cursor: pointer;
       pointer-events: none;
       transition: .25s all ease;
-      color: #383ac4;
+      color: #e9d9d9;
   }
 
   .select:hover::after {
