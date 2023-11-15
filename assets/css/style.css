@@ -1195,12 +1195,15 @@ h1.logo.l-h {
 .mobile-t{
   display: block !important;
 }
-h1.logo.l-h {
-  display: block;
-}
+
 .team{
   display: none;;
 }
+}
+@media only screen and (max-width:991px){
+  h1.logo.l-h {
+    display: block;
+  }
 }
 @keyframes gradient{
 0% {
