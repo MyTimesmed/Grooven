@@ -1745,6 +1745,9 @@ h1.logo.l-h {
 .container{
   max-width: 90% !important;
 }
+header#header .container {
+  max-width: 95% !important;
+}
 section{
   background-color: #fff;
 }
