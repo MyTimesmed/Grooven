@@ -1743,7 +1743,7 @@ h1.logo.l-h {
   color: #fff;
 }
 .container{
-  max-width: 90px !important;
+  max-width: 90% !important;
 }
 section{
   background-color: #fff;
