@@ -705,8 +705,9 @@ h4.title a {
 }
 
 .counts .count-box {
-  padding: 30px;
+  padding: 30px 10px;
   width: 100%;
+  display: flex;
 }
 
 .counts .count-box i {
@@ -718,19 +719,19 @@ h4.title a {
 }
 
 .counts .count-box span {
-  font-size: 48px;
+  font-size: 35px;
   line-height: 40px;
   display: block;
   font-weight: 700;
   color: #2a2a2a;
-  margin-left: 60px;
+  margin-left: 10px;
 }
 
 .counts .count-box p {
   padding: 15px 0 0 0;
-  margin: 0 0 0 60px;
+  margin: 0 0 0 10px;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   color: #505050;
 }
 
@@ -1746,7 +1747,7 @@ h1.logo.l-h {
   color: #fff;
 }
 .container{
-  max-width: 90% !important;
+  max-width: 98% !important;
 }
 header#header .container {
   max-width: 95% !important;
@@ -1846,4 +1847,11 @@ select#format option:nth-child(odd) {
 }
 .select-drop-parent {
   padding: 3rem 0;
+}
+
+.counts .count-box img {
+  width: 80px;
+}
+.counts .col-lg-3.col-md-6.d-md-flex.align-items-md-stretch {
+  max-width: 20%;
 }
