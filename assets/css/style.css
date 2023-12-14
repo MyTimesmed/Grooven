@@ -1849,7 +1849,7 @@ select#format option:nth-child(odd) {
   padding: 3rem 0;
 }
 
-.counts .count-box img {
+.count-box img {
   width: 80px;
 }
 .counts .col-lg-3.col-md-6.d-md-flex.align-items-md-stretch {
