@@ -1910,12 +1910,12 @@ a.jn_card1:hover h2{ text-decoration: underline; }
     display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; 
  }
 
-.jn_card3{ position: relative; display: flex; margin-bottom: 15px; }
+.jn_card3{ position: relative; display: flex; margin-bottom: 15px;height: 140px; }
 .jn_card3 .img{ width: 100%; position: relative; padding-top: 55%; overflow: hidden; }
-.jn_card3 .img img{ position: absolute; top: 0; left: 0; width:100%; }
+.jn_card3 .img img{ position: absolute; top: 0; left: 0; width:100%;height: 21vh;object-fit: cover; }
 .jn_card3 .txt{ background: rgba(0,0,0,0.6);  padding: 5px 10px; position: absolute; bottom: 0; left: 0;  }
 .jn_card3 h2{ 
-    font-size: 14px; font-weight: bold; line-height: 20px; color: #fff; 
+    font-size: 12px; font-weight: bold; line-height: 20px; color: #fff; 
     display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; 
  }
  .jn_card3 .fa{ position: absolute; top: 35%; left: 50%; transform: translate(-50%,-50%); color: #fff; border:#fff solid 2px; border-radius: 50%; padding: 10px 10px; filter: drop-shadow(0 0 5px#000); }
@@ -1938,7 +1938,7 @@ a.jn_card1:hover h2{ text-decoration: underline; }
 .share .sr{ color: #0b8a0b ;}
 .share .sr .fa{ margin-right: 5px; }
 
-.video{ width: 100%; padding-top: 54.5%; overflow: hidden; position: relative; }
+.video{ width: 100%; padding-top: 46.6%; overflow: hidden; position: relative; }
 .video iframe{ width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
 
 .gallery{ width: 100%; overflow: hidden; position: relative; }
@@ -2109,4 +2109,12 @@ small{ font-size: 14px; color: #999; display: block; }
     .ttl.h2{ height: 33px; }
     .ttl.h2 h2{ font-size: 1.7vw; margin: 0; }
     
+}
+
+.gallery div#sync1 .item img {
+  height: 65vh;
+  object-fit: cover;
+}
+#sync2 .owl-item {
+  width: 6.5% !important;
 }
